@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+.menu a{
+    background-color:darkgoldenrod;
+    color: yellow;
+    border-style: solid;
+    border-color: #e0287a;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 32px;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover{
+    background-color:red;
+    color: black;
+}
+button:active{
+    background-color: blue;
+}
+button:focus{
+    border: 5px grey solid;
+}
+button{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+button{
+    padding: 10px;
+    margin: 20px;
+}
+header {
+    background-color: #e0287a;
+    height: 150px;
+}
+.flex {
+    display: flex;
+  align-items: center;
+  }
+  .about{
+    width: 40%;
+    height: 50%;
+    text-align: justify;
+    margin: 20px;
+}
